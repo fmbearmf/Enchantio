@@ -45,8 +45,8 @@ public class EnchantioConfig {
         ConfigurationSection enchantsSection = getConfigSection(configuration, "enchants");
         migrateEnchantTags(enchantsSection);
 
-        ConfigurationSection soulboundSection = getConfigSection(enchantsSection, "soulbound");
-        SoulboundEnchant.create(soulboundSection);
+        //ConfigurationSection soulboundSection = getConfigSection(enchantsSection, "soulbound");
+        //SoulboundEnchant.create(soulboundSection);
 
         ConfigurationSection telepathySection = getConfigSection(enchantsSection, "telepathy");
         TelepathyEnchant.create(telepathySection);
