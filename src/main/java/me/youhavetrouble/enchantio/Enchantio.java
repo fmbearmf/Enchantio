@@ -16,9 +16,9 @@ public final class Enchantio extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        if (EnchantioConfig.ENCHANTS.containsKey(SoulboundEnchant.KEY)) {
-            getServer().getPluginManager().registerEvents(new SoulboundListener(), this);
-        }
+        //if (EnchantioConfig.ENCHANTS.containsKey(SoulboundEnchant.KEY)) {
+        //    getServer().getPluginManager().registerEvents(new SoulboundListener(), this);
+        //}
         if (EnchantioConfig.ENCHANTS.containsKey(TelepathyEnchant.KEY)) {
             getServer().getPluginManager().registerEvents(new TelepathyListener(), this);
         }
